@@ -1,1 +1,4 @@
 # rock-paper-scissors
+Almost every child has played rock-paper-scissors multiple times with their friends in school. The fun of predicting what your friend was going to take or how he was going to change because he had predictions about you on his own could not be beat. It was also used as a team selection trick where the winner gets to chose their team member was a particular sport first. Thus we expected the best among us to be the best in rock-paper-scissors as well.
+
+Rock-paper-scissors is an ancient game which has its origins from China. The rules of the game are very simple and make the game seem random but a player can achieve a higher chance of winning if he/she learn to predict their opponent. This game takes no time to setup and the play time is instant so the player needs fast response skills to predict their opponents game and improvise before the next move.
