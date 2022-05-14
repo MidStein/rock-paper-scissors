@@ -5,9 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="play.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="play.js" defer></script>
 </head>
 <body>
-
+    <div class="container">
+        <div class="versus">
+            <div id="player-side">
+                <div class="ask-choice">Make your choice</div>
+                <div class="user-buttons">
+                    <button class="rock"><img src="./images/user-rock.png" alt="rock">
+                        <div class="user-button-text">Rock</div></button>
+                    <button class="paper"><img src="./images/user-paper.png" alt="paper">
+                        <div class="user-button-text">Paper</div></button>
+                    <button class="scissors"><img src="./images/user-scissors.png" alt="scissors">
+                        <div class="user-button-text">Scissors</div></button>
+                </div>
+                <div class="running-score"></div>
+            </div>
+            <div id="computer-side">
+                <div class="computer-status">Computer</div>
+                <div class="computer-divs">
+                    <div class="rock"><img src="./images/comp-rock.png" alt="rock">Rock</div>
+                    <div class="paper"><img src="./images/comp-paper.png" alt="paper">Paper</div>
+                    <div class="scissors"><img src="./images/comp-scissors.png" alt="scissors">Scissors</div>
+                </div>
+                <div class="running-score"></div>
+            </div>
+        </div>
+        <div class="results">
+            <div class="round-result"></div>
+            <div class="game-result"></div>
+        </div>
+    </div>
 </body>
 </html>

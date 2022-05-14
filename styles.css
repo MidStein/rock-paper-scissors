@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.versus {
+    display: flex;
+}
+
+#player-side {
+    background: #aaaaaa;
+    height: 50vh;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.ask-choice {
+    color: #ffd700;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.user-buttons {
+    display: flex;
+    gap: 50px;
+}
+
+.user-button-text {
+    font-size: 18px;
+    background: #e6e6fa;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
+#computer-side {
+    background: #c7c0c1;
+    height: 50vh;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.computer-status {
+    color: #8b008b;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.computer-divs {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.results {
+    background: #f5f5dc;
+    padding: 16px;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.round-result {
+    font-size: 18px;
+    text-align: center;
+}
+
+.game-result {
+    font-size: 48px;
+    flex-grow: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.running-score {
+    margin-left: auto;
+}
